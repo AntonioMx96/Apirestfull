@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
    //DB::statement('SET FOREIGN_KEYS_CHECKS = 0');
    DB::statement("SET foreign_key_checks=0");
 
-       $cantidadusuarios=200;
+       $cantidadusuarios=1000;
        $cantidadcategorias=30;
        $productos=1000;
        $transacciones =1000;
