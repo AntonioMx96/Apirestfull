@@ -97,7 +97,7 @@ class Handler extends ExceptionHandler
             }
         }
 
-        if(config('app.debg')){
+        if(!config('app.debg')){
             return parent::render($request, $exception);
         }
         return $this->errorResponse("Falla inesperada intenlo luego", 500);
